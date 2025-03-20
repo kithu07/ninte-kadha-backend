@@ -1,6 +1,3 @@
-Here’s the complete **README.md** in a single file with proper formatting:
-
-````markdown
 # Ninte Kadha: Your Story - Backend
 
 ## 📌 Overview
@@ -28,52 +25,6 @@ This repository contains the **core API**, responsible for handling requests, pr
 - **AI Model:** Gemini AI
 - **HTTP Client:** Axios
 - **Environment Management:** dotenv
-
----
-
-## 🔧 API Endpoints
-
-| Endpoint       | Method | Description                                                  |
-| -------------- | ------ | ------------------------------------------------------------ |
-| `/upload`      | `POST` | Accepts JSON file of browsing history                        |
-| `/analyze`     | `POST` | Processes the history and generates insights using Gemini AI |
-| `/results/:id` | `GET`  | Retrieves generated analysis report                          |
-| `/health`      | `GET`  | Checks API health status                                     |
-
----
-
-## 🚀 Getting Started
-
-### 🔹 Installation
-
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/your-backend-repo.git
-   cd ninte-kadha-backend
-   ```
-````
-
-2. **Install dependencies:**
-
-   ```sh
-   npm install
-   ```
-
-3. **Set up environment variables:**  
-   Create a `.env` file in the root directory and configure it with the necessary API keys:
-
-   ```env
-   GEMINI_API_KEY=your_gemini_api_key
-   PORT=8000
-   ```
-
-4. **Run the Express server:**
-
-   ```sh
-   npm start
-   ```
-
-5. Open [`http://127.0.0.1:5000`](http://127.0.0.1:5000) to access the API.
 
 ---
 
