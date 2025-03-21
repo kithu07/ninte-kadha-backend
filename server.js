@@ -7,7 +7,10 @@ const app = express();
 app.use(cors());
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb", extended: true })); // Parse JSON data
-
+//setup  cors for every domain
+app.use(cors({
+  origin: '*'
+}));
 // Gemini API endpoint and key
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY; // Load API key from .env
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
