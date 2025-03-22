@@ -1,5 +1,9 @@
 # Ninte Kadha: Your Story - Backend
 
+## 📌 View live project
+
+https://ninte-kadha-frontend.vercel.app/
+
 ## 📌 Overview
 
 Ninte Kadha ("Your Story" in Malayalam) is the backend of an AI-powered application that analyzes browsing history to generate a personality breakdown. Built using **Node.js** and **Express**, this backend processes user-submitted browsing history, extracts key patterns, and leverages **Gemini AI** to generate meaningful insights.
